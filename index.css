@@ -1,0 +1,198 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 770px;
+	height: 1622px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_232 {
+	fill: rgba(212,2,2,1);
+	stroke: rgba(212,2,2,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_232 {
+	position: absolute;
+	overflow: visible;
+	width: 770px;
+	height: 844px;
+	left: 0px;
+	top: 778px;
+}
+#Rectangle_233 {
+	fill: rgba(65,137,225,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_233 {
+	position: absolute;
+	overflow: visible;
+	width: 770px;
+	height: 778px;
+	left: 0px;
+	top: 0px;
+}
+#APLICATIVO_DEL__USUARIO {
+	left: 145px;
+	top: 319px;
+	position: absolute;
+	overflow: visible;
+	width: 481px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(245,245,245,1);
+}
+#APLICATIVO_DEL__LIDER_DE_AMBUL {
+	left: 8px;
+	top: 1138px;
+	position: absolute;
+	overflow: visible;
+	width: 745px;
+	height: 246px;
+	text-align: center;
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: rgba(245,245,245,1);
+}
+#IconlyBoldShow {
+	position: absolute;
+	width: 82px;
+	height: 69px;
+	left: 344px;
+	top: 1040px;
+	overflow: visible;
+}
+#Show {
+	position: absolute;
+	width: 82px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_6 {
+	fill: rgba(245,245,245,1);
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 82px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#IconlyBoldShow_by {
+	position: absolute;
+	width: 82px;
+	height: 69px;
+	left: 344px;
+	top: 221px;
+	overflow: visible;
+}
+#Show_bz {
+	position: absolute;
+	width: 82px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_6_b {
+	fill: rgba(245,245,245,1);
+}
+.Path_6_b {
+	overflow: visible;
+	position: absolute;
+	width: 82px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_234 {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_234 {
+	position: absolute;
+	overflow: visible;
+	width: 770px;
+	height: 778px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+}
+#Rectangle_235 {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_235 {
+	position: absolute;
+	overflow: visible;
+	width: 770px;
+	height: 844px;
+	left: 0px;
+	top: 778px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login_amb.html;
+	cursor: pointer;
+}
