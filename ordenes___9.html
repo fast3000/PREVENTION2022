@@ -94,9 +94,9 @@
 	.Rectangle_122 {
 		position: absolute;
 		overflow: visible;
-		width: 294px;
-		height: 521px;
-		left: 476px;
+		width: 241px;
+		height: 258px;
+		left: 529px;
 		top: 328px;
 		--web-animation: fadein 0.3s ease-out;
 		--web-action-type: page;
@@ -120,6 +120,75 @@
 		height: 177px;
 		left: 0px;
 		top: 0px;
+	}
+	#Rectangle_248 {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_248 {
+		position: absolute;
+		overflow: visible;
+		width: 251px;
+		height: 200px;
+		left: 519px;
+		top: 104px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: ordenes___24.html;
+		cursor: pointer;
+	}
+	#Rectangle_249 {
+		fill: rgba(137,206,57,1);
+	}
+	.Rectangle_249 {
+		position: absolute;
+		overflow: visible;
+		width: 403px;
+		height: 53px;
+		left: 145px;
+		top: 1516px;
+	}
+	#LLAMAR_AL_PACIENTE {
+		left: 165px;
+		top: 1517px;
+		position: absolute;
+		overflow: visible;
+		width: 365px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Heebo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(245,245,245,1);
+	}
+	#Rectangle_250 {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_250 {
+		position: absolute;
+		overflow: visible;
+		width: 770px;
+		height: 191px;
+		left: 0px;
+		top: 1449px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: llamada___1.html;
+		cursor: pointer;
 	}
 </style>
 <script id="applicationScript">
@@ -3033,7 +3102,7 @@ var Application = function() {
 window.application = new Application();
 </script>
 </head>
-<body style=" zoom:47%;">
+<body style="zoom:47%;">
 <div id="ordenes__9">
 	<img id="ordenes2-1" src="ordenes2-1.png" srcset="ordenes2-1.png 1x, ordenes2-1@2x.png 2x">
 		
@@ -3045,11 +3114,26 @@ window.application = new Application();
 		<span>Cambiar a</span><br/><span style="font-style:normal;font-weight:bold;">En Atencion</span>
 	</div>
 	<svg class="Rectangle_122">
-		<rect onclick="application.goToTargetView(event)" id="Rectangle_122" rx="0" ry="0" x="0" y="0" width="294" height="521">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_122" rx="0" ry="0" x="0" y="0" width="241" height="258">
 		</rect>
 	</svg>
 	<svg class="Rectangle_123">
 		<rect id="Rectangle_123" rx="0" ry="0" x="0" y="0" width="264" height="177">
+		</rect>
+	</svg>
+	<svg class="Rectangle_248">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_248" rx="0" ry="0" x="0" y="0" width="251" height="200">
+		</rect>
+	</svg>
+	<svg class="Rectangle_249">
+		<rect id="Rectangle_249" rx="0" ry="0" x="0" y="0" width="403" height="53">
+		</rect>
+	</svg>
+	<div id="LLAMAR_AL_PACIENTE">
+		<span>LLAMAR AL PACIENTE</span>
+	</div>
+	<svg class="Rectangle_250">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_250" rx="0" ry="0" x="0" y="0" width="770" height="191">
 		</rect>
 	</svg>
 </div>

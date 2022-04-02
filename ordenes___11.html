@@ -174,24 +174,6 @@
 		--web-action-target: ordenes___12.html;
 		cursor: pointer;
 	}
-	#Rectangle_166 {
-		opacity: 0;
-		fill: rgba(255,255,255,1);
-		stroke: rgba(112,112,112,1);
-		stroke-width: 1px;
-		stroke-linejoin: miter;
-		stroke-linecap: butt;
-		stroke-miterlimit: 4;
-		shape-rendering: auto;
-	}
-	.Rectangle_166 {
-		position: absolute;
-		overflow: visible;
-		width: 724px;
-		height: 124px;
-		left: -13px;
-		top: 580px;
-	}
 	#Rectangle_169 {
 		opacity: 0;
 		fill: rgba(255,255,255,1);
@@ -213,6 +195,63 @@
 		--web-action-type: page;
 		--web-action-target: ordenes___2.html;
 		cursor: pointer;
+	}
+	#Rectangle_166 {
+		opacity: 0;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_166 {
+		position: absolute;
+		overflow: visible;
+		width: 431px;
+		height: 124px;
+		left: 280px;
+		top: 580px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: historial_user.html;
+		cursor: pointer;
+	}
+	#Rectangle_190 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(212,2,2,1);
+		stroke-width: 4px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_190 {
+		position: absolute;
+		overflow: visible;
+		width: 190px;
+		height: 56px;
+		left: 80px;
+		top: 589px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: ordenes___18.html;
+		cursor: pointer;
+	}
+	#CREAR_RECETA {
+		left: 105px;
+		top: 603px;
+		position: absolute;
+		overflow: visible;
+		width: 141px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Heebo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(212,2,2,1);
 	}
 </style>
 <script id="applicationScript">
@@ -3126,7 +3165,7 @@ var Application = function() {
 window.application = new Application();
 </script>
 </head>
-<body style=" zoom:47%;">
+<body style="zoom:47%;">
 <div id="ordenes__11">
 	<svg class="Rectangle_88">
 		<rect id="Rectangle_88" rx="0" ry="0" x="0" y="0" width="226" height="236">
@@ -3154,14 +3193,21 @@ window.application = new Application();
 		<rect onclick="application.goToTargetView(event)" id="Rectangle_165" rx="0" ry="0" x="0" y="0" width="636" height="215">
 		</rect>
 	</svg>
-	<svg class="Rectangle_166">
-		<rect id="Rectangle_166" rx="0" ry="0" x="0" y="0" width="724" height="124">
-		</rect>
-	</svg>
 	<svg class="Rectangle_169">
 		<rect onclick="application.goToTargetView(event)" id="Rectangle_169" rx="0" ry="0" x="0" y="0" width="409" height="160">
 		</rect>
 	</svg>
+	<svg class="Rectangle_166">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_166" rx="0" ry="0" x="0" y="0" width="431" height="124">
+		</rect>
+	</svg>
+	<svg class="Rectangle_190">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_190" rx="12" ry="12" x="0" y="0" width="190" height="56">
+		</rect>
+	</svg>
+	<div id="CREAR_RECETA">
+		<span>CREAR RECETA</span>
+	</div>
 </div>
 </body>
 </html>
