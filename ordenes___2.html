@@ -72,6 +72,31 @@
 		--web-action-target: ordenes.html;
 		cursor: pointer;
 	}
+	#Rectangle_273 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_273 {
+		position: absolute;
+		overflow: visible;
+		width: 528px;
+		height: 68px;
+		left: 118px;
+		top: 811px;
+	}
+	#Registro_de_unidad_en_turno {
+		left: 122px;
+		top: 811px;
+		position: absolute;
+		overflow: visible;
+		width: 495px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Heebo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(43,71,69,1);
+	}
 </style>
 <script id="applicationScript">
 ///////////////////////////////////////
@@ -2984,7 +3009,7 @@ var Application = function() {
 window.application = new Application();
 </script>
 </head>
-<body style="zoom:47%;">
+<body style="zoom:47%;" 
 <div id="ordenes__2">
 	<img id="ordenes3-1" src="ordenes3-1.png" srcset="ordenes3-1.png 1x, ordenes3-1@2x.png 2x">
 		
@@ -2992,6 +3017,13 @@ window.application = new Application();
 		<rect onclick="application.goToTargetView(event)" id="Rectangle_170" rx="0" ry="0" x="0" y="0" width="650" height="810">
 		</rect>
 	</svg>
+	<svg class="Rectangle_273">
+		<rect id="Rectangle_273" rx="0" ry="0" x="0" y="0" width="528" height="68">
+		</rect>
+	</svg>
+	<div id="Registro_de_unidad_en_turno">
+		<span>Registro de unidad en turno</span>
+	</div>
 </div>
 </body>
 </html>

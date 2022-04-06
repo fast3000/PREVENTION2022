@@ -42,7 +42,7 @@
 		}
 	
 	}
-	#registrarme_ch {
+	#registrarme_ck {
 		position: absolute;
 		width: 770px;
 		height: 1622px;
@@ -87,8 +87,27 @@
 		position: absolute;
 		width: 585px;
 		height: 311px;
-		left: 96px;
-		top: 969px;
+		left: 97px;
+		top: 1047px;
+		overflow: visible;
+	}
+	#Rectangle_271 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_271 {
+		position: absolute;
+		overflow: visible;
+		width: 286px;
+		height: 132px;
+		left: 238px;
+		top: 1440px;
+	}
+	#Group_23 {
+		position: absolute;
+		width: 577px;
+		height: 94px;
+		left: 97px;
+		top: 1384px;
 		overflow: visible;
 	}
 	#Rectangle_219 {
@@ -99,12 +118,12 @@
 		overflow: visible;
 		width: 577px;
 		height: 94px;
-		left: 96px;
-		top: 1305px;
+		left: 0px;
+		top: 0px;
 	}
-	#REGISTRARME_cm {
-		left: 285px;
-		top: 1326px;
+	#REGISTRARME_cr {
+		left: 189px;
+		top: 21px;
 		position: absolute;
 		overflow: visible;
 		width: 237px;
@@ -116,7 +135,7 @@
 		font-size: 35px;
 		color: rgba(249,249,249,1);
 	}
-	#Rectangle_220 {
+	#Rectangle_272 {
 		opacity: 0;
 		fill: rgba(255,255,255,1);
 		stroke: rgba(112,112,112,1);
@@ -126,13 +145,17 @@
 		stroke-miterlimit: 4;
 		shape-rendering: auto;
 	}
-	.Rectangle_220 {
+	.Rectangle_272 {
 		position: absolute;
 		overflow: visible;
-		width: 723px;
-		height: 150px;
-		left: 16px;
-		top: 1290px;
+		width: 770px;
+		height: 264px;
+		left: 0px;
+		top: 1358px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: registrarme___2.html;
+		cursor: pointer;
 	}
 </style>
 <script id="applicationScript">
@@ -3046,9 +3069,9 @@ var Application = function() {
 window.application = new Application();
 </script>
 </head>
-<body style="zoom:47%;">
+<body style="zoom:47%;" 
 <div id="registrarme">
-	<img id="registrarme_ch" src="registrarme_ch.png" srcset="registrarme_ch.png 1x, registrarme_ch@2x.png 2x">
+	<img id="registrarme_ck" src="registrarme_ck.png" srcset="registrarme_ck.png 1x, registrarme_ck@2x.png 2x">
 		
 	<svg class="Rectangle_3">
 		<rect onclick="application.goToTargetView(event)" id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="385" height="112">
@@ -3060,15 +3083,21 @@ window.application = new Application();
 	</svg>
 	<img id="Image_6" src="Image_6.png" srcset="Image_6.png 1x, Image_6@2x.png 2x">
 		
-	<svg class="Rectangle_219">
-		<rect id="Rectangle_219" rx="14" ry="14" x="0" y="0" width="577" height="94">
+	<svg class="Rectangle_271">
+		<rect id="Rectangle_271" rx="0" ry="0" x="0" y="0" width="286" height="132">
 		</rect>
 	</svg>
-	<div id="REGISTRARME_cm">
-		<span>REGISTRARME</span>
+	<div id="Group_23">
+		<svg class="Rectangle_219">
+			<rect id="Rectangle_219" rx="14" ry="14" x="0" y="0" width="577" height="94">
+			</rect>
+		</svg>
+		<div id="REGISTRARME_cr">
+			<span>REGISTRARME</span>
+		</div>
 	</div>
-	<svg class="Rectangle_220">
-		<rect id="Rectangle_220" rx="0" ry="0" x="0" y="0" width="723" height="150">
+	<svg class="Rectangle_272">
+		<rect onclick="application.goToTargetView(event)" id="Rectangle_272" rx="0" ry="0" x="0" y="0" width="770" height="264">
 		</rect>
 	</svg>
 </div>
